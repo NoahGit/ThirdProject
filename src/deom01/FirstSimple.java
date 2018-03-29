@@ -1,10 +1,13 @@
 package deom01;
+import java.io.IOException;
+import java.nio.file.Paths;
+import java.util.Date;
 import java.util.Scanner;
 
 public class FirstSimple {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*// TODO Auto-generated method stub
 		double x = 2;
 		//double y = Math.sqrt(x);
 		double y = Math.pow(x, 2);
@@ -66,6 +69,31 @@ public class FirstSimple {
 			if(age == 20){
 				break;
 			}
+		}*/
+		
+		System.out.printf("%8.2f",1000/3.0);
+		System.out.println("****************");
+		String name="nmu";
+		int  age= 23;
+		System.out.printf("Hello,%s. Next year, you'll be %d !",name,age);
+		System.out.println("****************");
+		String message = String.format("Hello,%s. Next year, you'll be %d !", name,age);
+		System.out.println(message);
+		System.out.printf("%tD", new Date());
+		System.out.println(new Date());
+		
+		try {
+			@SuppressWarnings("resource")
+			Scanner in = new Scanner(Paths.get("F:\\D\\eee.txt"),"utf-8");
+			while(in.hasNext()){
+				String sss= in.next();
+				System.out.println(sss);
+			} //读取磁盘中一个文件的内容
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		}
+		String dir = System.getProperty("user.dir");  //当前路径
+		System.out.println(dir);
 	}
 }
