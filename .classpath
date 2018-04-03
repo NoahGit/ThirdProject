@@ -3,5 +3,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="F:/javaDoc/+++++JAVA书籍+++++/Java_LongFormASR_2.0.0001.0/libs/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/+++++JAVA书籍+++++/apache-log4j-2.11.0-src.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
