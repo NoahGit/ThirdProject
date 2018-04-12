@@ -12,23 +12,23 @@ public class Class10 {
 		//读数据
 		File file=new File("F:/D/eee.txt");
 		File file1=new File("F:/D/fff.txt");
-		/*FileInputStream fis = new FileInputStream(file);
-		BufferedInputStream bis = new BufferedInputStream(fis);
-		String content= "";
-		byte[] buffer = new byte[1024];
-		int flag = 0;
-		while((flag=bis.read(buffer))!=-1){
-			content+=new String(buffer,0,flag);
-		}
-		System.out.println(content);
-		bis.close();
+//		FileInputStream fis = new FileInputStream(file);
+//		BufferedInputStream bis = new BufferedInputStream(fis);
+//		String content= "";
+//		byte[] buffer = new byte[1024];
+//		int flag = 0;
+//		while((flag=bis.read(buffer))!=-1){
+//			content+=new String(buffer,0,flag);
+//		}
+//		System.out.println(content);
+//		bis.close();
 		//写数据
-		FileOutputStream fos = new FileOutputStream(file1);
-		BufferedOutputStream bos = new BufferedOutputStream(fos);
-		String content1 = "我是缓冲输出流测试数据！";
-		bos.write(content1.getBytes(),0,content1.getBytes().length);
-		bos.flush();
-		bos.close();*/
+//		FileOutputStream fos = new FileOutputStream(file1);
+//		BufferedOutputStream bos = new BufferedOutputStream(fos);
+//		String content1 = "我是缓冲输出流测试数据！";
+//		bos.write(content1.getBytes(),0,content1.getBytes().length);
+//		bos.flush();
+//		bos.close();
 		/**
          * 1.先将文件中的内容读入到缓冲输入流中
          * 2.将输入流中的数据通过缓冲输出流写入到目标文件中
