@@ -4,5 +4,12 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="F:/javaDoc/+++++JAVA书籍+++++/Java_LongFormASR_2.0.0001.0/libs/lfasr-sdk-client-2.0.0.1005-jar-with-dependencies.jar"/>
 	<classpathentry kind="lib" path="F:/javaDoc/+++++JAVA书籍+++++/apache-log4j-2.11.0-src.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/commons-collections-3.2.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/maven-wrapper.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/quartz-all-1.6.5.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/wendang/20180412/slf4j-log4j12-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
