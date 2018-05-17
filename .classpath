@@ -11,5 +11,10 @@
 	<classpathentry kind="lib" path="F:/wendang/20180412/quartz-all-1.6.5.jar"/>
 	<classpathentry kind="lib" path="F:/wendang/20180412/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="F:/wendang/20180412/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/oraclejdbc/ojdbc8.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/oraclejdbc/ojdbc8_g.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/oraclejdbc/ojdbc8dms.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/oraclejdbc/ojdbc8dms_g.jar"/>
+	<classpathentry kind="lib" path="F:/javaDoc/oraclejdbc/simplefan.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
